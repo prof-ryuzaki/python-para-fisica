@@ -56,13 +56,14 @@
             <br>
 			<p>Aquí puedes pedirme que trate algún tema en concreto o simplemente saludar:</p>
 
-			<form action=gracias.html method="get">
-				<label for="question">Lo que sea que me quieras decir:</label>
-				<textarea id="question" name="question" rows="3" required placeholder="👋"></textarea>
-                
+            <div class="formlike">
+				<label for="question2">Lo que sea que me quieras decir:</label>
+				<textarea id="question2" name="question" rows="3" required placeholder="👋"></textarea>
                 <p class="aviso">Evita poner datos personales, porque no me estás dando consentimiento expreso para gestionarlos.</p>
-                <input type="submit" value="Enviar">
-			</form>
+                <button onclick="window.location.href='gracias.html';">
+                Enviar
+                </button>
+            </div>
 
             <br>
             <br>
@@ -96,18 +97,22 @@
 
             <br>
             
-            <form action="gracias.html" method="get">
+            <div class="formlike">
 				<label for="question2">Opción A de Amigo, saludar:</label>
 				<textarea id="question2" name="question" rows="3" required placeholder="👋"></textarea>
                 <p class="aviso">Evita poner datos personales, porque no me estás dando consentimiento expreso para gestionarlos.</p>
-                <input type="submit" value="Enviar">
-            </form>
+                <button onclick="window.location.href='gracias.html';">
+                Enviar
+                </button>
+            </div>
             <br>
             <br>
-            <form action=https:/twitter.com/ProfRyuzaki method="get" target="_blank">
+            <div class="formlike">
                 <label for="email">Opción B de Bueno poco a poco, Twitter:</label>
-				<input type="submit" value="@ProfRyuzaki">
-			</form>
+                <button onclick="window.location.href='https:/twitter.com/ProfRyuzaki';">
+                @ProfRyuzaki
+                </button>
+			</div>
               
 		</div>
 
