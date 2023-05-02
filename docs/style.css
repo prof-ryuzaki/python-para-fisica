@@ -81,6 +81,18 @@
 	cursor: pointer;
 }
 
+.buttonlike {
+	background-color: rgb(116,66,37);/* #4CAF50; */
+	color: white;
+	font-size: 24px;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+    margin: 5px;
+	cursor: pointer;
+	text-decoration: none;
+}
+
 .bio input[type="submit"]:hover {
 	background-color: #3e8e41;
 }
@@ -125,4 +137,6 @@ body {
     font-size: .8em;
     margin: 0%;
   }
+
+
   
